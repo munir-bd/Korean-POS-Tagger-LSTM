@@ -2,8 +2,11 @@
 Korean POS Tagger Using Character-Level Sequence to Sequence Model 
 
 [1] I. Sutskever, O. Vinyals, and Q. V. Le, "Sequence to sequence learning with neural networks." Advances in NIPS (2014), https://arxiv.org/abs/1409.3215.
+
 [2] K. Cho, and et al., "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation.“, https://arxiv.org/pdf/1406.1078.pdf
+
 [3] https://github.com/keras-team/keras/blob/master/examples/lstm_seq2seq.py
+
 Model is same as [3] but diffrent application. 
 Character-Level Sequence to Sequence Model:
   Input sequences
@@ -26,6 +29,7 @@ Inference from trained model:
     Apply argmax
     Append the sampled character to the target sequence 
   Repeating until to reach the end-of-sequence character
+
 Prerequisite:
 ==============
 keras
