@@ -33,8 +33,11 @@ Inference from trained model:
 Prerequisite:
 ==============
 keras
+
 numpy
+
 pickle
+
 
 For train script:
 =================
@@ -46,7 +49,9 @@ python test.py --input_file test.txt --output_file result.txt
 
 Files:
 LSTM_KR_PoS.py :  Character embedding model for Korean part of speech tagging
+
 train.py : Training script 
+
 test.py: Testing script
 
 
